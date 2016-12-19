@@ -22,5 +22,5 @@ That's it.
  - Better interface
  - Ability to check multiple projects at once
  
- ## Improvments
+## Improvments
  If you have improvements, fork this repository and make a pull request.
