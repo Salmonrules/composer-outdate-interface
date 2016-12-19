@@ -1,4 +1,4 @@
-# composer-outdate-interface
+# ComWatch
 A simple project to check if there is an outdated composer package by browser (WIP)
 
 ## Installation
