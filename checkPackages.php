@@ -23,7 +23,7 @@ if (is_array($outputSplitted)) {
                     $i++;
                 }
             }
-            $ouput .= '</tr>';
+            $output .= '</tr>';
         }
     }
     $output .= '</table>';
