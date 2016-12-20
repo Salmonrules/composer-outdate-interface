@@ -6,7 +6,7 @@ use Symfony\Component\Process\Process;
 putenv('COMPOSER_HOME='.__DIR__.'/vendor/bin/composer');
 chdir(__DIR__);
 
-$process = new Process('composer outdated');
+$process = new Process('composer outdated --no-interaction');
 $process->run();
 $outputSplitted = explode("\n",$process->getOutput());
 
