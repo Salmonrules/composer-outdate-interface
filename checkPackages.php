@@ -12,6 +12,11 @@ $outputSplitted = explode("\n",$process->getOutput());
 
 if (is_array($outputSplitted)) {
     $output = '<table>';
+    $output .= '<tr>'
+            . '<thead>'
+            . '<th>Framework</th><th>Oude versie</th><th>Nieuwe versie</th>'
+            . '</thead>'
+            . '</tr>';
     foreach ($outputSplitted as $package) {
         if (!empty($package)) {
             $packageArray = explode(' ',$package);
