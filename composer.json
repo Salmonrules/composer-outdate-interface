@@ -1,4 +1,14 @@
 {
+    "name": "salmonrules/comwatch",
+    "type": "project",
+    "license": "MIT",
+    "description": "Check if there are outdated composer packages and show them in browser",
+    "authors": [
+        {
+            "name": "Danny van der Zalm",
+            "email": "danny@dvanderzalm.nl"
+        }
+    ],
     "require": {
         "composer/composer": "^1.2"
     }
