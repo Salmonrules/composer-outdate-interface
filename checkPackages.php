@@ -27,6 +27,6 @@ if (is_array($outputSplitted)) {
         }
     }
     $output .= '</table>';
-    
+
     echo $output;
 }
